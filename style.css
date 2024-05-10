@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(to right, rgb(242, 233, 130), rgb(115, 173, 234));
+}
+
+
+.img-Slider {
+    overflow: hidden;
+    display: flex;
+}
+
+
+.img-Slider {
+    /* width: 25vw;
+    height: 20vh; */
+}
+
+
+.img-Slider img {
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
+
+
+.btns-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btns-div button {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+
+.PreBtn:hover {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+.NextBtn:hover {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+@media screen and (min-width:345px) {
+    .PreBtn {
+        background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    }
+
+    .NextBtn {
+        background-color: #85FFBD;
+        background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    }
+}
